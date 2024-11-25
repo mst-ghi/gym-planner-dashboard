@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--mantine-color-body);
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
