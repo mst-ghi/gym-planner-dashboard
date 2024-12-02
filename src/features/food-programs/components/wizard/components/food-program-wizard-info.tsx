@@ -1,16 +1,6 @@
 import { DateTimeInput } from '@/components/form';
 import { useFoodProgramFormContext } from '../context/food-program-context';
-import {
-  Card,
-  Flex,
-  rem,
-  SimpleGrid,
-  Slider,
-  Stack,
-  Textarea,
-  TextInput,
-  Text,
-} from '@mantine/core';
+import { Card, Flex, SimpleGrid, Stack, Textarea, TextInput, Text } from '@mantine/core';
 
 const FoodProgramWizardInfo = () => {
   const form = useFoodProgramFormContext();

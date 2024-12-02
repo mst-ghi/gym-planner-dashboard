@@ -1,5 +1,5 @@
 import { formatDate } from '@/utils';
-import { IconArrowLeft } from '@tabler/icons-react';
+import { IconArrowRight } from '@tabler/icons-react';
 import { useFoodProgramFormContext } from '../context';
 import { useFetchUserById, UserCard } from '@/features/users';
 import { Flex, Stack, Table, Text, Title } from '@mantine/core';
@@ -26,11 +26,11 @@ const FoodProgramWizardFinal = ({ user }: FoodProgramWizardFinalProps) => {
         <Flex direction='row' align='center' justify='space-between'>
           <Flex direction='row' align='center' gap='xs'>
             <Text fw={600} fz={14}>
-              از {formatDate(form.values.started_at!)}
+              From {formatDate(form.values.started_at!)}
             </Text>
-            <IconArrowLeft color='gray' size={20} />
+            <IconArrowRight color='gray' size={20} />
             <Text fw={600} fz={14}>
-              تا {formatDate(form.values.ended_at!)}
+              To {formatDate(form.values.ended_at!)}
             </Text>
           </Flex>
         </Flex>

@@ -106,13 +106,13 @@ const FoodProgramWizardDay = () => {
               ]);
             }}
           >
-            افزودن آیتم غذایی
+            Add Diet Item
           </Button>
         </Flex>
       </Card.Section>
 
       {(!form.values.items || !form.values.items[0]) && (
-        <ImageStates name='noRecords' message='آیتم غذایی اضافه کنید' />
+        <ImageStates name='noRecords' message='Add New Diet Item' />
       )}
 
       {form.values.items && form.values.items[0] && (

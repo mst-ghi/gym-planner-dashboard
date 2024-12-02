@@ -16,7 +16,7 @@ export const UserCardInfo = ({ title, value }: { title: string; value?: string |
       gap='md'
       bg={isLightTheme ? 'gray.1' : 'dark.5'}
       p='sm'
-      style={{ borderRadius: 8 }}
+      style={{ borderRadius: 'var(--mantine-radius-lg)' }}
     >
       <Text c='gray' fz={14}>
         {title}
