@@ -84,7 +84,7 @@ export default function ExercisesPage() {
               return <MediaViewer url={exercise.cover_url} height={64} width={64} />;
             },
           },
-          { accessor: 'title', title: 'Title FA' },
+          { accessor: 'title', title: 'Title' },
           { accessor: 'title_en', title: 'Title EN' },
           {
             accessor: 'description',
