@@ -23,6 +23,8 @@ Gym planner dashboard project. A Project for Gym Instructors & Coach. <br /> **M
 # Production running
 > pnpm build && pnpm start
 ```
+## Preview Dashboard
+[dashboard-demo.webm](https://github.com/user-attachments/assets/9febb942-3f9d-422c-ad32-353f29884362)
 
 ## Author
 
